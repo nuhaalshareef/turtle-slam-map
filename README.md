@@ -1,7 +1,7 @@
 # turtle-slam-map 
+First we visit turtlebot3 website " TurtleBot3 (robotis.com) " , and change the vision to noetic .then we follow the steps:
 # Install Dependent ROS Packages
-for noetic
-
+```
 $ sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-joy \
   ros-kinetic-teleop-twist-keyboard ros-kinetic-laser-proc \
   ros-kinetic-rgbd-launch ros-kinetic-depthimage-to-laserscan \
@@ -11,7 +11,7 @@ $ sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-joy \
   ros-kinetic-move-base ros-kinetic-urdf ros-kinetic-xacro \
   ros-kinetic-compressed-image-transport ros-kinetic-rqt* \
   ros-kinetic-gmapping ros-kinetic-navigation ros-kinetic-interactive-markers
-  
+  ```
   # Install TurtleBot3 Packages
   ```
  $ sudo apt-get install ros-kinetic-dynamixel-sdk
@@ -38,6 +38,7 @@ $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 $ export TURTLEBOT3_MODEL=waffle
 $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ```
+![Uploading _لقطة الشاشة ٢٠٢٢-٠٨-٠٥ في ٦.٥٢.٥٢ ص.jpg…]()
 
 
 
