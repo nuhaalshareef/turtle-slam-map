@@ -38,9 +38,7 @@ $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 $ export TURTLEBOT3_MODEL=waffle
 $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ```
-![Uploading _لقطة الشاشة ٢٠٢٢-٠٨-٠٥ في ٦.٥٢.٥٢ ص.jpg…]()
-
-
+![unnamed (5)](https://user-images.githubusercontent.com/108008564/183267316-602b8544-21f1-4879-aebf-ae2260946daf.jpg)
 
 # Run Teleoperation Node
 ```
@@ -58,4 +56,5 @@ $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
  a/d : increase/decrease angular velocity
  space key, s : force stop
  ```
- 
+ ![unnamed (6)](https://user-images.githubusercontent.com/108008564/183267335-c2185aad-c4f2-4f2c-b82d-967eda85538f.jpg)
+
