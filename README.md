@@ -30,7 +30,7 @@ $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 # Launch Simulation World
 ```
-$ export TURTLEBOT3_MODEL=burger
+$ export TURTLEBOT3_MODEL=waffle
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 # Run SLAM Node
@@ -42,7 +42,7 @@ $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 
 # Run Teleoperation Node
 ```
-$ export TURTLEBOT3_MODEL=burger
+$ export TURTLEBOT3_MODEL=waffle
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 #  Control Your TurtleBot3!
